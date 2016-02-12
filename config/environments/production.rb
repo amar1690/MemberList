@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  config.assets.precompile = ['*.js', '*.css', '*.css.erb', '*.png', '*.jpg', '*.woff', '*.ttf']
   # Code is not reloaded between requests.
   config.cache_classes = true
 
