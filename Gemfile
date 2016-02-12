@@ -27,6 +27,7 @@ gem "paperclip", "~> 4.3"
 gem 'bcrypt', '~> 3.1.7'
 gem "figaro"
 gem "mysql2", "~> 0.3.18"
+gem 'aws-sdk', '~> 1'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
