@@ -1,4 +1,4 @@
-WS.config(
+AWS.config(
 
     access_key_id: ENV["aws_access_id"],
 
